@@ -1,0 +1,68 @@
+﻿@model IEnumerable<IndirimKuponum.Models.IndirimlerModel>
+
+@{
+    ViewData["Title"] = "ListArama";
+}
+
+@inject LanguageServices language
+
+<h2>@language.Getkey("IndirimListesi")</h2>
+
+
+
+@Html.Partial("IndirimlerListesi", Model)
+
+
+@section SagKolon{
+    @Html.Partial("Search")
+
+<div class="well">
+    <h4>@language.Getkey("IndirimKategorileri")</h4>
+    <div class="row">
+        <div class="col-lg-6">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="/Indirimler/List/1">@language.Getkey("Giyim")</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="/Indirimler/List/2">@language.Getkey("Seyahat")</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="/Indirimler/List/3">@language.Getkey("Egelence")</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="/Indirimler/List/4">@language.Getkey("Egitim")</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="/Indirimler/List/5">@language.Getkey("Yemek")</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="/Indirimler/List/6">@language.Getkey("Aksesuar")</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+}
+
+

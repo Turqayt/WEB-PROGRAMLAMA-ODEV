@@ -1,0 +1,25 @@
+﻿@model IEnumerable<IndirimKuponum.Models.YorumModel>
+@inject LanguageServices language
+
+@if (Model.Count() == 0)
+{
+    <div class="alert alert-warning"><h3>@language.Getkey("KayitBulunamadi")</h3></div>
+}
+else
+{
+
+    foreach (var yorum in Model)
+    {
+        <div class="indirim">
+            <h3 class="page-header">
+                @yorum.KullaniciAdi
+            </h3>
+            <p>
+                <span class="glyphicon glyphicon-time"></span>
+                @yorum.YorumText
+            </p>
+            <hr />
+
+        </div>
+    }
+}

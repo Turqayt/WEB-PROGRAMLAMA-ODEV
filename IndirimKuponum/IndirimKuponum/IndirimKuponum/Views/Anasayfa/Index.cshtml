@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@inject LanguageServices language
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" style="width:100%;height:600px;" src="https://images.unsplash.com/photo-1526178613552-2b45c6c302f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+
+                <p> @Html.Partial("Search")</p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <h2>@language.Getkey("Hakkimizda")</h2>
+        <p>
+            @language.Getkey("Hakkimizda1")
+
+        </p>
+        <p>
+            @language.Getkey("Hakkimizda2")
+
+        </p>
+        <p>
+            @language.Getkey("Hakkimizda3")
+
+        </p>
+        <p>
+            @language.Getkey("Hakkimizda4")
+        </p>
+
+    </div>
+    <div class="col-md-4">
+        <img src="https://image.flaticon.com/icons/png/512/1225/1225238.png" alt="">
+
+    </div>
+</div>

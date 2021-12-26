@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aciklama" xml:space="preserve">
+    <value>Explanation</value>
+  </data>
+  <data name="Ad" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="AdminYonetimPaneli" xml:space="preserve">
+    <value>Admin Administration Panel</value>
+  </data>
+  <data name="Aksesuar" xml:space="preserve">
+    <value>Accessory</value>
+  </data>
+  <data name="Anasayfa" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="AnasayfaDegil" xml:space="preserve">
+    <value>Not Home Page</value>
+  </data>
+  <data name="Baslik" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="CikisYap" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="DahaFazla" xml:space="preserve">
+    <value>More...</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Dil" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Egitim" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="GirisYap" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="Giyim" xml:space="preserve">
+    <value>Clothes</value>
+  </data>
+  <data name="Gizlilik" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="Gizlilik1" xml:space="preserve">
+    <value>Use this page to detail your site's privacy policy.</value>
+  </data>
+  <data name="Hakkimizda" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="Hakkimizda1" xml:space="preserve">
+    <value>Discount Coupon site is a project that was implemented for the project assignment of Sakarya University Computer Engineering Web Programming course and then turned into an enterprise.</value>
+  </data>
+  <data name="Hakkimizda2" xml:space="preserve">
+    <value>It all starts so innocently. You go to the site of your favorite clothing store, you need a new part for your car, you want to buy a new one because your old washing machine is leaking, you browse through a wide array of products, you are one step behind the buying stage and in that moment you think, 'Can't I get it cheaper? ' That's exactly why we're here 'YES, you can get it cheaper!' Now we'll show you how!</value>
+  </data>
+  <data name="Hakkimizda3" xml:space="preserve">
+    <value>Discount Coupon is the good side of the internet. It doesn't provide you with a carefree prosperous life, you can't get painless liposuction with my Discount Coupon, or you can't get rid of your wrinkles by touching your magic wand. We're giving you something accessible to internet users all over the world - the chance to shop online for less. You may think that high quality products and services equal high prices. It may be true that sometimes you have to pay more to get something more valuable.</value>
+  </data>
+  <data name="Hakkimizda4" xml:space="preserve">
+    <value>Fortunately, we no longer live in times of monopoly where a single company sets prices. Thanks to many products, many stores, alternative solutions and possibilities, we can find the best quality products at the best prices. What can be understood from the word groups 'quality product' and 'best price' is up to everyone's power of interpretation. Although this is up to your interpretation, the universal thing is that a good store gives its customers the chance to shop at a more affordable price. For example, you can find these stores in My Discount Coupon. Definitely don't compromise on quality to save money. Because this is a situation that should be advantageous for both sides.</value>
+  </data>
+  <data name="Hosgeldin" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Icerik" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="Indirim" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="IndirimAra" xml:space="preserve">
+    <value>Search Discount</value>
+  </data>
+  <data name="IndirimGuncelle" xml:space="preserve">
+    <value>Edit Discount</value>
+  </data>
+  <data name="IndirimKategorileri" xml:space="preserve">
+    <value>Discount Categories</value>
+  </data>
+  <data name="IndirimListesi" xml:space="preserve">
+    <value>Discount List</value>
+  </data>
+  <data name="Kategori" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="KategoriAdi" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="KategoriEkle" xml:space="preserve">
+    <value>Add Category</value>
+  </data>
+  <data name="KategoriGuncelle" xml:space="preserve">
+    <value>Edit Category</value>
+  </data>
+  <data name="KategoriId" xml:space="preserve">
+    <value>Category ID</value>
+  </data>
+  <data name="KategoriListesi" xml:space="preserve">
+    <value>Category List</value>
+  </data>
+  <data name="KayitBulunamadi" xml:space="preserve">
+    <value>No Records Found</value>
+  </data>
+  <data name="KayitOl" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="KullaniciAdi" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Kullanicilar" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="ListeyeDon" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="Onayli" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="OnayliDegil" xml:space="preserve">
+    <value>Not Approved</value>
+  </data>
+  <data name="Resim" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Seyahat" xml:space="preserve">
+    <value>Trip</value>
+  </data>
+  <data name="Soyad" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="TumIndirimler" xml:space="preserve">
+    <value>All Discounts</value>
+  </data>
+  <data name="Yemek" xml:space="preserve">
+    <value>Food</value>
+  </data>
+  <data name="YeniIndirimEkle" xml:space="preserve">
+    <value>Add New Discount</value>
+  </data>
+  <data name="Yorum" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="YorumlariGormekIcinTikla" xml:space="preserve">
+    <value>Click To See The Comments</value>
+  </data>
+  <data name="YorumText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="YorumYazmakIcinUyeOl" xml:space="preserve">
+    <value>Sign Up To Write A Comment</value>
+  </data>
+</root>

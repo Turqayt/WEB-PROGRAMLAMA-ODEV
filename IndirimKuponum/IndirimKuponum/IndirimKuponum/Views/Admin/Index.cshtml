@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@inject LanguageServices language
+
+<h2>@language.Getkey("Kullanicilar")</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>@language.Getkey("Ad")</th>
+        <th>@language.Getkey("Soyad")</th>
+        <th>Mail</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>@language.Getkey("Ad")</td>
+        <td>@language.Getkey("Soyad")</td>
+        <td>Mail</td>
+    </tr>
+</table>
+

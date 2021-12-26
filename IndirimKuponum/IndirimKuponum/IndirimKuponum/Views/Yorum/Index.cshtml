@@ -1,0 +1,48 @@
+﻿@model IEnumerable<IndirimKuponum.Models.YorumModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yorum Listesi</h1>
+
+
+<hr />
+
+
+<table class="table table-bordered table-hover table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.KullaniciAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YorumText)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YorumId)
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KullaniciAdi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YorumText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YorumId)
+            </td>
+            <td>
+               
+                @Html.ActionLink("Delete", "Delete", new { YorumId = item.YorumId }, new { @class = "btn btn-danger btn-xs" })
+            </td>
+        </tr>
+    }
+
+</table>
+
